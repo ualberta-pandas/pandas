@@ -1,6 +1,6 @@
 package com.example.pandas
 
-class shape(
+abstract class Shape(
     val x: Int,
     val y: Int
 )
