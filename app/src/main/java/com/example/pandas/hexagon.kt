@@ -3,7 +3,7 @@ package com.example.pandas
 class Hexagon (
     x: Int,
     y: Int,
-    val radius: Int,
+    val sideLength: Int,
 ) : Shape(x, y) {
 
 }
