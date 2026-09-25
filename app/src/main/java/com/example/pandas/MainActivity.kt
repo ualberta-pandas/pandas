@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
-        val circle = Circle(10,10,30, "blue")
+        val circle = Circle(10,10,30, color = "red")
         circle.circleInfo()
     }
 }
